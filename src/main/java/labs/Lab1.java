@@ -4,9 +4,9 @@ import java.util.Date;
 
 public class Lab1 {
     public static void main(String[] args) {
-        String firstName = "Данил";
-        String middleName = "Владимирович";
-        String lastName = "Чернов";
+        String firstStudName = "Данил";
+        String middleStudName = "Владимирович";
+        String lastStudName = "Чернов";
         String firstTeachName = "Елена";
         String middleTeachName = "Сергеевна";
         String lastTeachName = "Владимирова";
@@ -17,10 +17,10 @@ public class Lab1 {
         int valueStep = 3500;
         int valueStepFond = valueStep * valueStud;
 
-        String fullName = fullName(lastName, firstName, middleName);
+        String fullStudName = fullName(lastStudName, firstStudName, middleStudName);
         String fullTeachName = fullName(lastTeachName, firstTeachName, middleTeachName);
 
-        System.out.println("Программу выполнил:\n" + fullName);
+        System.out.println("Программу выполнил:\n" + fullStudName);
         System.out.println("Шифр группы: " + groupName);
         System.out.println("Дата: " + date);
         System.out.println("Номер варианта: " + varNum);
